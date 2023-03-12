@@ -9,6 +9,9 @@
 using namespace std;
 
 int ARR[NUM][MAXN];
+
+
+
 void merge(vector<int>& arr, int left, int mid, int right);
 void merge_sort(vector<int>& arr, int left, int right);
 void Rand_Arr(int num);
